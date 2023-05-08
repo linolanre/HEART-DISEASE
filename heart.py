@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import warnings 
 warnings.filterwarnings('ignore')
-from sklearn.linear_model import LogisticRegression
 import joblib
 
 model = joblib.load(open('LinReg.pkl', 'rb'))
