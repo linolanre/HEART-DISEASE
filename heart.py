@@ -50,7 +50,5 @@ if st.button('Predict'):
     input_df['Heart Rate'] = prediction
     st.table(input_df)
 
-if
-
 
     
